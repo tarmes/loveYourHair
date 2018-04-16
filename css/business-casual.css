@@ -154,7 +154,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(0, 128, 128, 0.9);
 }
 
 .cta .cta-inner {
@@ -255,8 +255,8 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: rgba(0, 128, 128, 1);
+  border-color: rgba(0, 128, 128, 1);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
