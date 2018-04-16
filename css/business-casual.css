@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/salonDesk.jpg");
+  background: linear-gradient(rgba(21, 51, 77, 0.65), rgba(21, 51, 77, 0.65)), url("../img/salonDesk.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -84,7 +84,7 @@ p {
 
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(0, 128, 128, 0.9);
   font-family: 'Raleway';
 }
 
@@ -93,12 +93,12 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 800;
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: rgba(255, 255, 255, 1);
 }
 
 @media (min-width: 992px) {
@@ -234,7 +234,12 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(0, 128, 128, 0.9);
+}
+
+.footer .m-0 {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Raleway';
 }
 
 .text-primary {
