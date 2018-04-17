@@ -207,8 +207,14 @@ p {
 }
 
 .team-member {
-  margin-bottom: 50px;
+  margin-top: 30px;
   text-align: center;
+}
+
+@media (min-width: 992px) {
+  .team-member {
+    margin-top: 50px;
+  }
 }
 
 .team-member img {
