@@ -270,6 +270,16 @@ p {
       text-align: center;
       margin-top: 20px;
     }
+    .product-item .product-item-descriptionb {
+      position: relative;
+      margin-top: -1.5rem;
+      z-index: 1;
+    }
+    .product-item .product-item-titleb {
+      position: relative;
+      margin-bottom: -.6rem;
+      z-index: 1;
+  }
 }
 
 
