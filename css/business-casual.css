@@ -157,11 +157,17 @@ p {
     margin-top: 3rem;
     position: absolute;
   }
-  .intro .intro-text .intro-button {
+  .product-item .product-item-description .intro-button {
     width: 100%;
-    left: 0;
-    position: absolute;
     bottom: -2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .intro .intro-img {
+    max-width: 75vw;
+    float: right;
   }
 }
 
@@ -241,6 +247,12 @@ p {
       position: relative;
       margin-top: -1.5rem;
       z-index: 1;
+    }
+    .product-item .product-item-description .intro-button {
+      width: 100%;
+      bottom: -1rem;
+      text-align: center;
+      margin-top: 20px;
     }
 }
 
