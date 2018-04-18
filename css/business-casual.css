@@ -212,8 +212,14 @@ p {
   }
 }
 
+@media (max-width: 992px) {
+  .product-item .product-item-title {
+    margin-bottom: -3rem;
+  }
+}
+
 .team-member {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 
