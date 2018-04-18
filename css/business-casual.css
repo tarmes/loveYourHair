@@ -86,10 +86,12 @@ p {
 #mainNav {
   background-color: rgba(0, 128, 128, 0.9);
   font-family: 'Raleway';
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  border-top: 1px solid rgba(255,255,255, 0.9);
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: rgba(255, 255, 255, 1);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -98,6 +100,10 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+#mainNav .button.navbar-toggler {
   color: rgba(255, 255, 255, 1);
 }
 
@@ -128,7 +134,7 @@ p {
 
 @media (min-width: 992px) {
   .intro .intro-img {
-    width: 75%;
+    width: 70%;
     float: right;
   }
   .intro .intro-text {
@@ -227,6 +233,7 @@ p {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
+  color: rgba(255, 255, 255, 1);
 }
 
 .team-member p {
@@ -238,7 +245,7 @@ p {
 }
 
 .list-hours .list-hours-item {
-  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.9);
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
@@ -270,15 +277,15 @@ p {
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: rgba(255, 255, 255, 1); !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: rgba(255, 255, 255, 1); !important;
 }
 
 .btn {
-  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(255, 255, 255, 1);;
 }
 
 .btn-primary {
@@ -287,8 +294,8 @@ p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
 }
 
 .font-weight-light {
