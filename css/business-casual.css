@@ -1,17 +1,16 @@
-html {
+html, body {
+  font-family: 'Lora';
   background: linear-gradient(rgba(21, 51, 77, 0.65), rgba(21, 51, 77, 0.65)), url("../img/salonDesk.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -o-background-attachment: fixed;
   background-size: cover;
   height: 100%;
   background-position: center center;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
-body {
-  font-family: 'Lora';
 }
 
 h1,
