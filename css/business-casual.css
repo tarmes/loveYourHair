@@ -6,7 +6,8 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
-  overflow: hidden;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 h1,
