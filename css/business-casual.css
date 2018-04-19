@@ -1,6 +1,6 @@
 html, body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(21, 51, 77, 0.65), rgba(21, 51, 77, 0.65)), url("../img/salonDesk.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(21, 51, 77, 0.65), rgba(21, 51, 77, 0.65)), url("../img/salonDesk.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,6 +8,11 @@ html, body {
   height: 100%;
 }
 
+@media (max-width: 992px) {
+  body {
+    background-attachment: scroll;
+  }
+}
 
 h1,
 h2,
